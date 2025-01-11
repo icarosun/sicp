@@ -1,6 +1,6 @@
 # lang elixir
 
-# Elixir use Infixe notation 
+# Elixir use Infix notation 
 
 10
 # 10

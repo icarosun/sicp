@@ -3,34 +3,34 @@
 # Elixir use Infixe notation 
 
 10
-10
+# 10
 
 5 + 3 + 4
-12
+# 12
 
 9 - 1
-8
+# 8
 
 6 / 2
-3.0
+# 3.0
 
 2 * 4 + 4 - 6
-6
+# 6
 
 a = 3
-3
+# 3
 
 b = a + 1
-4
+# 4
 
 a + b + a * b
-19
+# 19
 
 ^a = b
-match(error)
+# match(error)
 
 a = b
-4
+# 4
 
 if b > a and b < a * b do
   b
@@ -38,7 +38,7 @@ else
   a
 end
 
-4
+# 4
 
 cond do
   a = 4 -> 6
@@ -46,7 +46,7 @@ cond do
   true -> 25
 end
 
-warning(6)
+# warning(6)
 
 cond do
   4 = a -> 6
@@ -54,7 +54,7 @@ cond do
   true -> 25
 end
 
-match(error)
+# match(error)
 
 2 +
   if b > a do
@@ -63,7 +63,7 @@ match(error)
     a
   end
 
-6
+# 6
 
 cond do
   a > b -> a
@@ -71,4 +71,4 @@ cond do
   true -> -1
 end * (a + 1)
 
-16
+# 16
